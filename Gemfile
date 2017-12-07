@@ -9,3 +9,6 @@ gem 'mdl'
 gem 'colored'
 gem 'safe_yaml'
 gem 'httparty'
+
+# CI needs this specific version of Rake
+gem 'rake',  '10.1.0'
