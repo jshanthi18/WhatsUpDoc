@@ -17,10 +17,7 @@ email:
     
 before_install:
   - gem update --system
-  - gem --version    
-  
-script:
-  - RAILS_ENV=test bundle exec rake teaspoon 
+  - gem --version
     
 
 #env:
