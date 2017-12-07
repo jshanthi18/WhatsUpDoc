@@ -12,6 +12,11 @@ rvm:
 email:
   recipients:
     - jshanthi19@gmail.com
+    
+before_install:
+  - gem update --system
+  - gem --version    
+    
 
 #env:
 #  matrix:
