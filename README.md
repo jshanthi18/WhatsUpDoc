@@ -16,3 +16,6 @@
 - ask a maintainer to review and merge
 
 ## Guidelines
+- github renders markdown and has flavors it, see these references for more info:
+    https://help.github.com/categories/writing-on-github/
+    https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
