@@ -9,9 +9,9 @@ rvm:
 #    urls:
 #      # send travis build-related statsd to an app (that forwards it to enova.graphite.com)
 #      - http://travis.enova.com:4568/payload
-  email:
-    recipients:
-      - jshanthi19@gmail.com
+email:
+  recipients:
+    - jshanthi19@gmail.com
 
 #env:
 #  matrix:
