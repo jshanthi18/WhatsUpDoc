@@ -18,6 +18,10 @@ email:
 before_install:
   - gem update --system
   - gem --version    
+  
+script:
+  - RAILS_ENV=test bundle exec rake teaspoon
+  - RAILS_ENV=test xvfb-run -a bundle exec rake parallel:spec  
     
 
 #env:
